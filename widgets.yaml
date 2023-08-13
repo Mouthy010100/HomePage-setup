@@ -1,0 +1,13 @@
+- greeting:
+    text_size: md
+    text: Hello There...
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: brave
+    target: _blank
+
+- logo:
