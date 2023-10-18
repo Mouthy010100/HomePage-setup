@@ -1,29 +1,4 @@
-- Stonks:
-    - CoinMarketCap:
-        icon: jellystat.png
-        widget:
-          type: coinmarketcap
-          currency: GBP
-          symbols: [BTC, LTC, ETH]
-          key: #insertapikey
-- Media:
-    - Jellyfin:
-        href: https://localhost:port
-        icon: jellyfin.png
-        description: Binge O'clock
-        widget:
-          type: jellyfin
-          url: https://localhost:port
-          key: # insertapikey
-          enableBlocks: true
-          fields: ["movies", "series", "episodes"]
-          enableNowPlaying: true
-
-    - Jellyseer:
-        href: https://localhost:port
-        description: The Google of TV
-        icon: jellyseerr.png
-        widget:
-          type: jellyseerr
-          url: https://localhost:port
-          key: #insertapikey
+- TXT Editor:
+    - VS code:
+        icon: vscode.png
+        href: http://machineip:port #http://10.0.10.244:9104 example
