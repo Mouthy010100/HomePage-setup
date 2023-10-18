@@ -1,10 +1,1 @@
- layout:
-   Stonks:
-     style: row
-     columns: 1
-     disableCollapse: true
-     icon: mdi-chart-line
-   Media:
-     style: row
-     columns: 2
-     icon: mdi-server
+
